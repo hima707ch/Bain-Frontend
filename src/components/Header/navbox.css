@@ -1,0 +1,65 @@
+.navbox {
+    width: 60vw;
+    height: 85vh;
+    background-color: crimson;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 3;
+    overflow: scroll;
+    visibility: hidden;
+  }
+  
+  .show{
+  visibility: visible;
+  }
+  
+  
+  .head-cont {
+    display: flex;
+  }
+  
+  .box-icon {
+    margin: 1rem;
+    display: inline-block;
+  }
+  
+  .box-img {
+    width: 65%;
+    max-width: 11rem;
+    margin-left: 1rem;
+    display: inline-block;
+  }
+  
+  .box-list {
+    padding: 1.5rem 4rem;
+  }
+  
+  .box-item {
+    list-style-type: none;
+    margin-bottom: 1rem;
+  }
+  
+  .box-item > button,
+  .box-item > a,
+  .prev > button {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+    padding: 0rem;
+    font-family: "Graphik", Helvetica, sans-serif, Lucida Sans Unicode;
+    border: none;
+    border-bottom: 1px solid transparent;
+    font-size: 1rem;
+  }
+  
+  .prev {
+    margin-bottom: 1rem;
+  }
+  
+  .box-item > button:hover,
+  .box-item > a:hover,
+  .prev > button:hover {
+    border-bottom-color: white;
+  }
+  
